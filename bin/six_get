@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+# This binary provides commandline access to six_get features
+
+require 'six_get'
+
+# Parse commandline arguments
+options = SixGet::Options.parse
