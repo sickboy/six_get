@@ -1,5 +1,12 @@
 require "six_get/version"
 
 module SixGet
-  # Your code goes here...
+  autoload :Options, "six_get/options"
+
+  module_function
+
+  # Retrieve full product version string
+  def product_version
+    "SixGet version #{VERSION}"
+  end
 end
