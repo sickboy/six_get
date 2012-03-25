@@ -2,3 +2,5 @@ Six Get
 =============
 
 Low level library, with command line interface, to facilitate working with the official Six Updater Network.
+
+Modeled on aptitude (apt-get) used in Debian linux distributions.
